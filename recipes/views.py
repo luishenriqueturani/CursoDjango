@@ -9,7 +9,7 @@ def contacts(request):
 
 
 def home(request):
-    return HttpResponse('Home')
+    return render(request, 'recipes/home.html')
 
 
 def about(request):
